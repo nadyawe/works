@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    height: 354px;
+    width: 691px;
+    background: url(../img/mount.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    font-size: 50px;
+    color: white;
+    background-color: rgba(21, 24, 36, 0.4);
+    position: absolute;
+}
+
+
+.sofa {
+    width: 357px;
+    height: 264px;
+    background: url(../img/Rectangle\ 12.png);
+    position: relative;
+}
+
+.sale {
+    margin-left: 13px;
+    margin-right: 13px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    background-color: steelblue;
+    padding: 10px 20px;
+    position: absolute;
+    top: 10px;
+}
+
+.chair {
+    width: 96%;
+    font-size: 20px;
+    padding: 12px 19px 12px 19px;
+    left: 10px;
+    bottom: 10px;
+    position: absolute;
+    color: white;
+    background-color: steelblue;
+}
+
+.wrapper1 {
+    width: 800px;
+    height: 223px;
+    position: relative;
+    background: url(../img/Rectangle\ 16.png);
+}
+
+.content {
+    height: 100%;
+    background-color: rgba(21, 34, 66, 0.5);
+}
+
+.play {
+    background: url(../img/like.png) no-repeat center;
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
